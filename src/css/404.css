@@ -1,0 +1,19 @@
+.pnf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pnf__image {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 2rem;
+}
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

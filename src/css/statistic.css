@@ -1,0 +1,63 @@
+.statistic {
+    position: relative;
+    background-image: url('../images/fadeoutright-woman-watching-tablet-in-office-f9af23.jpg');
+    background-repeat: no-repeat;
+    /* set background image 66.6% left */
+    background-size: 66.66% auto;
+    background-position: left center;
+}
+
+.statistic__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.statistic__list {
+    width: 33.33%;
+    padding: 10rem 0;
+}
+
+.statistic__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.statistic__item-content {
+    display: flex;
+    align-items: flex-end;
+}
+
+.statistic__item-content-value {
+    font-size: 7.2rem;
+    color: var(--main-color);
+}
+
+.statistic__item-content-unit {
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 1024px) {
+    .statistic {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .statistic__list {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .statistic__item {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}

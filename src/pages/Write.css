@@ -1,0 +1,52 @@
+.write__image {
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+
+.write__image-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    margin-bottom: 4rem;
+}
+
+.write__image img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.write__form {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.write__form-group {
+    margin-bottom: 2rem;
+}
+
+.write__icon {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.write__input {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    font-weight: 400;
+
+    outline: none;
+}
+
+.write__textarea {
+    height: 20rem;
+}

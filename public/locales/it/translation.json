@@ -1,0 +1,169 @@
+{
+	"title": "L'applicazione desktop remoto veloce",
+	"header__nav-links": {
+		"home": "Casa",
+		"solutions": "Soluzioni",
+		"reviews": "Recensioni",
+		"pricing": "Prezzo",
+		"contact": "Contatto"
+	},
+
+	"banner__title": {
+		"access": "Accedi",
+		"now": "ora."
+	},
+	"banner__subtitle": "Access any device at any time. From anywhere. Always secure and fast.",
+	"banner__button": "Scarica ora",
+	"banner__text": "MultiViewer è gratuito per uso personale.",
+
+	"intro__subtitle": "Software per desktop remoto",
+	"intro__title": {
+		"overcoming": "Superare",
+		"distance": "la distanza"
+	},
+	"intro__desc": "Crediamo nel software che migliora la produttività e la creatività dei suoi utenti. Ecco perché la nostra missione è costruire un prodotto che ti permetta di realizzare grandi cose, da qualsiasi parte del mondo ti trovi.",
+
+	"trusted__title": "Scelto da oltre 10.000 clienti",
+
+	"statistic__item-content-unit": {
+		"1": "Milioni",
+		"2": "Milioni",
+		"3": "Milioni"
+	},
+	"statistic__item-title": {
+		"1": "Download",
+		"2": "Sessioni al mese",
+		"3": "Miglia con ponte al mese"
+	},
+
+	"features__item-title": {
+		"1": "Velocissimo",
+		"2": "Leggero",
+		"3": "Sicuro",
+		"4": "Ovunque"
+	},
+	"features__item-text": {
+		"1": {
+			"1": "Minima latenza via",
+			"2": "il nostro codec DeskRT.",
+			"3": "Frame rate di 60 fps."
+		},
+		"2": {
+			"1": "Scarica ~12 MB.",
+			"2": "Avvia app.",
+			"3": "Fatto."
+		},
+		"3": {
+			"1": "Sicurezza TLS 1.2 di livello militare,",
+			"2": "AES a 256 bit",
+			"3": "Crittografia trasporto"
+		},
+		"4": {
+			"1": "Funziona su Windows,",
+			"2": "ovunque e",
+			"3": "in qualsiasi momento"
+		}
+	},
+	"features__intro-title": {
+		"1": "Perché 10+",
+		"2": "Milioni di utenti",
+		"3": "amo MultiViewer"
+	},
+	"features__intro-button": "Scarica ora",
+
+	"pricing__title": "La soluzione giusta per te",
+	"pricing__subtitle": "Prova gratuita di 30 giorni per uso professionale.",
+	"pricing__button": "Scarica ora",
+	"pricing__item-name": {
+		"1": "Essenziale",
+		"2": "Prestazioni",
+		"3": "Impresa"
+	},
+	"pricing__item-price": {
+		"1": "$0",
+		"2": "$19,99",
+		"3": "$29,99"
+	},
+	"pricing__item-subprice": {
+		"1": "al mese (fatturato annualmente)",
+		"2": "al mese e utente (fatturato annualmente)",
+		"3": "al mese e utente (fatturato annualmente)"
+	},
+	"pricing__item-text": {
+		"1": {
+			"1": "Caratteristiche di base per",
+			"2": "lavoro a distanza."
+		},
+		"2": {
+			"1": "Veloce e affidabile.",
+			"2": "Set completo di funzioni aziendali."
+		},
+		"3": {
+			"1": "Completamente personalizzabile. Distribuzione di massa.",
+			"2": "Nel cloud o in locale."
+		}
+	},
+	"pricing__item-button": "Scarica ora",
+	"pricing__item-includes": {
+		"1": "Licenza per utente singolo, include",
+		"2": "Licenza multiutente, include",
+		"3": "Licenza multiutente, include"
+	},
+	"pricing__item-features": {
+		"1": {
+			"1": "Dispositivi illimitati a cui connettersi (assistiti)",
+			"2": "1 dispositivo gestito (non presidiato)",
+			"3": "1 utente con licenza = 1 dispositivo da cui connettersi",
+			"4": "Accesso al Centro assistenza"
+		},
+		"2": {
+			"1": "Dispositivi illimitati a cui connettersi (assistiti)",
+			"2": "Fino a 3000 dispositivi gestiti (non presidiati)",
+			"3": "Connetti da un massimo di 3 dispositivi per utente con licenza",
+			"4": "Wake-on-Lan",
+			"5": "Registrazione sessione",
+			"6": "Opzioni di sicurezza avanzate",
+			"7": "Assistenza clienti"
+		},
+		"3": {
+			"1": "Dispositivi illimitati a cui connettersi (assistiti)",
+			"2": "Dispositivi gestiti illimitati (non presidiati)",
+			"3": "Connetti da un massimo di 3 dispositivi per utente con licenza",
+			"4": "Sessioni simultanee illimitate",
+			"5": "Personalizzazione e branding",
+			"6": "Interfaccia della riga di comando",
+			"7": "Distribuzione MSI",
+			"8": "Politiche di gruppo"
+		}
+	},
+
+	"community__title": "Unisciti alla nostra comunità",
+
+	"question__title": "Tutto quello che devi sapere",
+	"question__data": {
+		"1": {
+			"question": "Offri un abbonamento mensile e un pagamento mensile?",
+			"answer": "Attualmente offriamo abbonamenti su base annuale e fatturazioni annuali."
+		},
+		"2": {
+			"question": "Ho bisogno di rinnovare il mio contratto ogni anno?",
+			"answer": "Comprendiamo che la Business Continuity è importante per te. Pertanto, il tuo contratto si rinnoverà automaticamente a meno che tu non ce lo comunichi in anticipo."
+		},
+		"3": {
+			"question": "Quali opzioni di pagamento offrite?",
+			"risposta": "Accettiamo pagamenti tramite Banca, Visa, Mastercard e PayPal"
+		},
+		"4": {
+			"question": "Cos'è un utente?",
+			"answer": "Se si desidera avviare l'accesso remoto, è necessaria una licenza valida assegnata al rispettivo account, ad esempio tramite il proprio indirizzo MultiViewer o alias."
+		},
+		"5": {
+			"question": "Su quali piattaforme può essere utilizzato il software?",
+			"answer": "Attualmente supportiamo solo i dispositivi Windows."
+		},
+		"6": {
+			"question": "Come posso ottenere supporto?",
+			"answer": "Puoi ottenere supporto attraverso le piattaforme che abbiamo elencato in Contatto"
+		}
+	}
+}

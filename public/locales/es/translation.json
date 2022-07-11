@@ -1,0 +1,169 @@
+{
+	"title": "La aplicación de escritorio remoto rápido",
+	"header__nav-links": {
+		"home": "Casa",
+		"solutions": "Soluciones",
+		"reviews": "Reseñas",
+		"pricing": "Precios",
+		"contact": "Contacto"
+	},
+
+	"banner__title": {
+		"access": "Accede.",
+		"now": "Ahora."
+	},
+	"banner__subtitle": "Accede a cualquier dispositivo en cualquier momento. De donde sea. Siempre seguro y rápido.",
+	"banner__button": "Descargar ahora",
+	"banner__text": "MultiViewer es gratuito para uso personal.",
+
+	"intro__subtitle": "Software de escritorio remoto",
+	"intro__title": {
+		"overcoming": "Superando",
+		"distance": "la distancia"
+	},
+	"intro__desc": "Creemos en el software que mejora la productividad y la creatividad de sus usuarios. Es por eso que nuestra misión es crear un producto que le permita lograr grandes cosas, desde cualquier lugar del mundo en el que se encuentre.",
+
+	"trusted__title": "Confiado por más de 10,000 clientes",
+
+	"statistic__item-content-unit": {
+		"1": "Millón",
+		"2": "Millón",
+		"3": "Millón"
+	},
+	"statistic__item-title": {
+		"1": "Descargas",
+		"2": "Sesiones por mes",
+		"3": "Millas puente por mes"
+	},
+
+	"features__item-title": {
+		"1": "Velocidad ultrarrápida",
+		"2": "Ligero",
+		"3": "Seguro",
+		"4": "En todas partes"
+	},
+	"features__item-text": {
+		"1": {
+			"1": "Latencia mínima vía",
+			"2": "nuestro propio códec DeskRT.",
+			"3": "Velocidad de fotogramas de 60 fps"
+		},
+		"2": {
+			"1": "Descargar ~12 MB.",
+			"2": "Iniciar aplicación.",
+			"3": "Terminado"
+		},
+		"3": {
+			"1": "Seguridad TLS 1.2 de grado militar,",
+			"2": "AES de 256 bits",
+			"3": "Cifrado de transporte"
+		},
+		"4": {
+			"1": "Funciona en Windows,",
+			"2": "en cualquier lugar y",
+			"3": "en cualquier momento"
+		}
+	},
+	"features__intro-título": {
+		"1": "Por qué 10+",
+		"2": "Millones de Usuarios",
+		"3": "me encanta MultiViewer"
+	},
+	"features__intro-button": "Descargar ahora",
+
+	"pricing__title": "La solución adecuada para usted",
+	"pricing__subtitle": "Prueba gratuita de 30 días para uso profesional.",
+	"price__button": "Descargar ahora",
+	"pricing__item-name": {
+		"1": "Esenciales",
+		"2": "Rendimiento",
+		"3": "Empresa"
+	},
+	"pricing__item-price": {
+		"1": "$0",
+		"2": "$19.99",
+		"3": "$29.99"
+	},
+	"pricing__item-subprice": {
+		"1": "al mes (facturado anualmente)",
+		"2": "por mes y usuario (facturado anualmente)",
+		"3": "por mes y usuario (facturado anualmente)"
+	},
+	"pricing__item-text": {
+		"1": {
+			"1": "Características básicas para",
+			"2": "trabajo remoto"
+		},
+		"2": {
+			"1": "Rápido y fiable.",
+			"2": "Conjunto completo de características comerciales"
+		},
+		"3": {
+			"1": "Totalmente personalizable. Despliegue masivo.",
+			"2": "En la nube o en las instalaciones"
+		}
+	},
+	"pricing__item-button": "Descargar ahora",
+	"pricing__item-includes": {
+		"1": "Licencia de usuario único, incluye",
+		"2": "Licencia multiusuario, incluye",
+		"3": "Licencia multiusuario, incluye"
+	},
+	"pricing__item-features": {
+		"1": {
+			"1": "Dispositivos ilimitados para conectar (atendida)",
+			"2": "1 dispositivo administrado (desatendido)",
+			"3": "1 usuario con licencia = 1 dispositivo desde el que conectarse",
+			"4": "Acceso al Centro de ayuda"
+		},
+		"2": {
+			"1": "Dispositivos ilimitados para conectar (atendida)",
+			"2": "Hasta 3000 dispositivos administrados (desatendidos)",
+			"3": "Conéctese desde hasta 3 dispositivos por usuario con licencia",
+			"4": "Despertar en LAN",
+			"5": "Grabación de sesión",
+			"6": "Opciones de seguridad avanzadas",
+			"7": "Atención al cliente"
+		},
+		"3": {
+			"1": "Dispositivos ilimitados para conectar (atendida)",
+			"2": "Dispositivos administrados ilimitados (desatendidos)",
+			"3": "Conéctese desde hasta 3 dispositivos por usuario con licencia",
+			"4": "Sesiones concurrentes ilimitadas",
+			"5": "Personalización y marca",
+			"6": "Interfaz de línea de comandos",
+			"7": "Implementación de MSI",
+			"8": "Políticas de grupo"
+		}
+	},
+
+	"community__title": "Únete a nuestra comunidad",
+
+	"question__title": "Todo lo que necesitas saber",
+	"question__data": {
+		"1": {
+			"question": "¿Ofrecen una suscripción mensual y un pago mensual?",
+			"answer": "Actualmente, ofrecemos suscripciones anuales y facturación anual"
+		},
+		"2": {
+			"question": "¿Necesito renovar mi contrato cada año?",
+			"answer": "Entendemos que la Continuidad del negocio es importante para usted. Por lo tanto, su contrato se renovará automáticamente a menos que nos informe con anticipación"
+		},
+		"3": {
+			"question": "¿Qué opciones de pago ofrecen?",
+			"answer": "Aceptamos pagos a través de Banco, Visa, Mastercard y PayPal"
+		},
+		"4": {
+			"question": "¿Qué es un usuario?",
+			"answer": "Si desea iniciar el acceso remoto, necesita una licencia válida asignada a la cuenta respectiva, por ejemplo, a través de su propia dirección o alias de MultiViewer"
+		},
+		"5": {
+			"question": "¿En qué plataformas se puede usar el software?",
+			"answer": "Actualmente, solo admitimos dispositivos Windows"
+		},
+		"6": {
+			"question": "¿Cómo puedo obtener soporte?",
+			"answer": "Puede obtener soporte a través de las plataformas que hemos enumerado en Contacto"
+		}
+	}
+}

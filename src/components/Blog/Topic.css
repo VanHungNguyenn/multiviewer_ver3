@@ -1,0 +1,41 @@
+.topic {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 3rem;
+}
+
+.topic__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2.4rem;
+}
+
+.topic__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.topic__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem 2.4rem;
+    margin: 0 1.6rem 1.6rem 0;
+
+    border-radius: 2rem;
+    border: 3px solid #fff;
+    color: #fff;
+
+    cursor: pointer;
+
+    transition: all 0.5s;
+
+    background-color: #2e3039;
+}
+
+.topic__item:hover {
+    border: 3px solid var(--main-color);
+}

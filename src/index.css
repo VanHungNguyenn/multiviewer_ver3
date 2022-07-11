@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* --main-color: #ef443b; */
+  --main-color: #3970b6;
+  --black-color: #464646;
+  --white-color: #fff;
+  --height-header: 8rem;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.layout {
+  padding-top: 12rem;
+  padding-bottom: 13rem;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}
+
+/* Global css */
+@import url('./css/global.css');
+/* Reset css */
+@import url('./css/reset.css');
+/* Header css */
+@import url('./css/header.css');
+/* Banner css */
+@import url('./css/banner.css');
+/* Intro css */
+@import url('./css/intro.css');
+/* Trusted css */
+@import url('./css/trusted.css');
+/* Statistic css */
+@import url('./css/statistic.css');
+/* Features css */
+@import url('./css/features.css');
+/* Utilities */
+@import url('./css/utilities.css');
+/* Pricing css */
+@import url('./css/pricing.css');
+/* Comunity css */
+@import url('./css/community.css');
+/* Contact css */
+@import url('./css/contact.css');
+/* Footer css */
+@import url('./css/footer.css');
+/* Question css */
+@import url('./css/question.css');
+/* Tutorial css */
+@import url('./css/tutorial.css');
+/* Review css */
+@import url('./css/review.css');
+/* 404 css */
+@import url('./css/404.css');

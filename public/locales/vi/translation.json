@@ -1,0 +1,171 @@
+{
+	"title": "Multiviewer - Phần mềm điều khiển máy tính từ xa",
+	"header__nav-links": {
+		"home": "Trang chủ",
+		"solutions": "Giải pháp",
+		"reviews": "Đánh giá",
+		"pricing": "Bảng giá",
+		"contact": "Liên hệ"
+	},
+
+	"banner__title": {
+		"access": "Kích hoạt",
+		"now": "ngay"
+	},
+	"banner__subtitle": "Truy cập và điều khiển tất cả thiêt bị một cách nhanh chóng và dễ dàng",
+	"banner__button": "Tải về ngay",
+	"banner__text": "MultiViewer miễn phí cho tất cả người dùng",
+
+	"intro__subtitle": "Phần mềm điều khiển máy tính từ xa",
+	"intro__title": {
+		"overcoming": "An toàn",
+		"distance": "Dễ dùng"
+	},
+	"intro__desc": "Chúng tôi tin tưởng vào phần mềm giúp nâng cao năng suất và sự sáng tạo của người dùng. Đó là lý do tại sao sứ mệnh của chúng tôi là xây dựng một sản phẩm cho phép bạn đạt được những điều tuyệt vời - dù bạn ở bất kỳ đâu trên thế giới.",
+
+	"trusted__title": "Được hơn 10.000 khách hàng tín nhiệm",
+
+	"statistic__item-content-unit": {
+		"1": "Triệu",
+		"2": "Triệu",
+		"3": "Triệu"
+	},
+	"statistic__item-title": {
+		"1": "Lượt tải về",
+		"2": "Lượt sử dụng mỗi tháng",
+		"3": "(km) khoảng cách di chuyển mỗi tháng"
+	},
+
+	"features__item-title": {
+		"1": "Nhanh như chớp",
+		"2": "Nhẹ",
+		"3": "Bảo mật",
+		"4": "Mọi nơi"
+	},
+	"features__item-text": {
+		"1": {
+			"1": "Độ trễ tối thiểu qua",
+			"2": "codec DeskRT của riêng chúng tôi.",
+			"3": "Tốc độ khung hình 60 khung hình / giây"
+		},
+		"2": {
+			"1": "Tải xuống ~ 12 MB.",
+			"2": "Khởi động ứng dụng.",
+			"3": "Xong."
+		},
+		"3": {
+			"1": "Bảo mật TLS 1.2 cấp quân sự",
+			"2": "256-bit AES",
+			"3": "Mã hóa truyền tải"
+		},
+		"4": {
+			"1": "Hoạt động trên Windows,",
+			"2": "mọi nơi và",
+			"3": "bất cứ lúc nào"
+		}
+	},
+	"features__intro-title": {
+		"1": "Tại sao 10+",
+		"2": "Triệu người dùng",
+		"3": "yêu thích MultiViewer"
+	},
+	"features__intro-button": "Tải xuống ngay",
+
+	"pricing__title": "Giải pháp phù hợp cho bạn",
+	"pricing__subtitle": "Dùng thử phần mềm Multiviewer miễn phí 30 ngày để sử dụng chuyên nghiệp.",
+	"pricing__button": "Tải xuống ngay",
+	"pricing__item-name": {
+		"1": "Cơ bản",
+		"2": "Hiệu suất",
+		"3": "Doanh nghiệp"
+	},
+	"pricing__item-price": {
+		"1": "$0",
+		"2": "$19,99",
+		"3": "$29,99"
+	},
+	"pricing__item-subprice": {
+		"1": "mỗi tháng (thanh toán hàng năm)",
+		"2": "mỗi tháng và người dùng (thanh toán hàng năm)",
+		"3": "mỗi tháng và người dùng (thanh toán hàng năm)"
+	},
+
+	"pricing__item-text": {
+		"1": {
+			"1": "Các tính năng cơ bản cho",
+			"2": "làm việc từ xa."
+		},
+		"2": {
+			"1": "Nhanh chóng và đáng tin cậy.",
+			"2": "Tập hợp đầy đủ các tính năng kinh doanh."
+		},
+		"3": {
+			"1": "Hoàn toàn có thể tùy chỉnh. Triển khai hàng loạt.",
+			"2": "Trong đám mây hoặc tại chỗ."
+		}
+	},
+
+	"pricing__item-button": "Tải xuống ngay",
+	"pricing__item-includes": {
+		"1": "Giấy phép cho một người dùng, bao gồm",
+		"2": "Giấy phép nhiều người dùng, bao gồm",
+		"3": "Giấy phép nhiều người dùng, bao gồm"
+	},
+	"pricing__item-features": {
+		"1": {
+			"1": "Không giới hạn thiết bị để kết nối",
+			"2": "1 thiết bị được quản lý",
+			"3": "1 người dùng được cấp phép = 1 thiết bị để kết nối",
+			"4": "Hỗ trợ khách hàng"
+		},
+		"2": {
+			"1": "Không giới hạn thiết bị để kết nối (đã tham dự)",
+			"2": "Lên đến 3000 thiết bị được quản lý",
+			"3": "Kết nối từ tối đa 3 thiết bị cho mỗi người dùng được cấp phép",
+			"4": "Wake-on-Lan",
+			"5": "Ghi phiên",
+			"6": "Tùy chọn bảo mật nâng cao",
+			"7": "Hỗ trợ khách hàng"
+		},
+		"3": {
+			"1": "Không giới hạn thiết bị để kết nối",
+			"2": "Thiết bị được quản lý không giới hạn",
+			"3": "Kết nối từ tối đa 3 thiết bị cho mỗi người dùng được cấp phép",
+			"4": "Không giới hạn phiên đồng thời",
+			"5": "Tùy chỉnh và xây dựng thương hiệu",
+			"6": "Giao diện dòng lệnh",
+			"7": "Triển khai MSI",
+			"8": "Chính sách Nhóm"
+		}
+	},
+
+	"community__title": "Tham gia Cộng đồng của chúng tôi",
+
+	"question__title": "Tất cả những gì bạn cần biết",
+	"question__data": {
+		"1": {
+			"question": "Bạn có cung cấp đăng ký hàng tháng và thanh toán hàng tháng không?",
+			"answer": "Hiện tại, chúng tôi cung cấp đăng ký hàng năm và lập hóa đơn hàng năm."
+		},
+		"2": {
+			"question": "Tôi có cần gia hạn hợp đồng hàng năm không?",
+			"answer": "Chúng tôi hiểu rằng Tính liên tục trong kinh doanh là quan trọng đối với bạn. Do đó, hợp đồng của bạn sẽ tự động gia hạn trừ khi bạn cho chúng tôi biết trước."
+		},
+		"3": {
+			"question": "Bạn cung cấp các tùy chọn thanh toán nào?",
+			"answer": "Chúng tôi chấp nhận thanh toán qua Ngân hàng, Visa, Mastercard và PayPal"
+		},
+		"4": {
+			"question": "ID là gì?",
+			"answer": "Nếu bạn muốn bắt đầu truy cập từ xa, bạn cần có giấy phép hợp lệ được chỉ định cho tài khoản tương ứng, ví dụ: qua địa chỉ hoặc bí danh MultiViewer của riêng bạn."
+		},
+		"5": {
+			"question": "Phần mềm có thể được sử dụng trên những nền tảng nào?",
+			"answer": "Hiện tại, chúng tôi chỉ hỗ trợ các thiết bị Windows."
+		},
+		"6": {
+			"question": "Làm cách nào để nhận hỗ trợ?",
+			"answer": "Bạn có thể nhận hỗ trợ thông qua các nền tảng mà chúng tôi đã liệt kê trong Liên hệ"
+		}
+	}
+}

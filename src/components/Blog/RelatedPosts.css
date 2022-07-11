@@ -1,0 +1,9 @@
+.related {
+    margin-top: 3rem;
+}
+
+.related__title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}

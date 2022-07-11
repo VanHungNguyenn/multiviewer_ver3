@@ -1,0 +1,15 @@
+.trusted {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.trusted__title {
+    margin-bottom: 7rem;
+    font-size: 4.8rem;
+    text-align: center;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}

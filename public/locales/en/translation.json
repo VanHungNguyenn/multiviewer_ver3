@@ -1,0 +1,169 @@
+{
+	"title": "The Fast Remote Desktop Application",
+	"header__nav-links": {
+		"home": "Home",
+		"solutions": "Solutions",
+		"reviews": "Reviews",
+		"pricing": "Pricing",
+		"contact": "Contact"
+	},
+
+	"banner__title": {
+		"access": "Access.",
+		"now": "Now."
+	},
+	"banner__subtitle": "Access any device at any time. From anywhere. Always secure and fast.",
+	"banner__button": "Download Now",
+	"banner__text": "MultiViewer is free for personal use.",
+
+	"intro__subtitle": "Remote Desktop Software",
+	"intro__title": {
+		"overcoming": "Overcoming",
+		"distance": "Distance"
+	},
+	"intro__desc": "We believe in software that enhances the productivity and creativity of its users. That is why it is our mission to build a product that enables you to accomplish great things – from wherever in the world you are.",
+
+	"trusted__title": "Trusted by over 10,000 Customers",
+
+	"statistic__item-content-unit": {
+		"1": "Million",
+		"2": "Million",
+		"3": "Million"
+	},
+	"statistic__item-title": {
+		"1": "Downloads",
+		"2": "Sessions per month",
+		"3": "Bridged miles per month"
+	},
+
+	"features__item-title": {
+		"1": "Blazing fast",
+		"2": "Lightweight",
+		"3": "Secure",
+		"4": "Everywhere"
+	},
+	"features__item-text": {
+		"1": {
+			"1": "Minimum latency via",
+			"2": "our own DeskRT codec.",
+			"3": "Frame rates of 60 fps."
+		},
+		"2": {
+			"1": "Download ~12 MB.",
+			"2": "Start App.",
+			"3": "Done."
+		},
+		"3": {
+			"1": "Military-grade TLS 1.2 security,",
+			"2": "256-bit AES",
+			"3": "Transport Encryption"
+		},
+		"4": {
+			"1": "Works on Windows,",
+			"2": "anywhere and",
+			"3": "anytime"
+		}
+	},
+	"features__intro-title": {
+		"1": "Why 10+",
+		"2": "Million Users",
+		"3": "love MultiViewer"
+	},
+	"features__intro-button": "Download Now",
+
+	"pricing__title": "The Right Solution for You",
+	"pricing__subtitle": "Free 30 day trial for professional use.",
+	"pricing__button": "Download Now",
+	"pricing__item-name": {
+		"1": "Essentials",
+		"2": "Performance",
+		"3": "Enterprise"
+	},
+	"pricing__item-price": {
+		"1": "$0",
+		"2": "$19.99",
+		"3": "$29.99"
+	},
+	"pricing__item-subprice": {
+		"1": "per month (billed annually)",
+		"2": "per month and user (billed annually)",
+		"3": "per month and user (billed annually)"
+	},
+	"pricing__item-text": {
+		"1": {
+			"1": "Basic features for",
+			"2": "remote working."
+		},
+		"2": {
+			"1": "Fast and reliable.",
+			"2": "Full set of business features."
+		},
+		"3": {
+			"1": "Fully customizable. Mass Deployment.",
+			"2": "In the Cloud or On-Premises."
+		}
+	},
+	"pricing__item-button": "Download Now",
+	"pricing__item-includes": {
+		"1": "Single-user license, includes",
+		"2": "Multi-user license, includes",
+		"3": "Multi-user license, includes"
+	},
+	"pricing__item-features": {
+		"1": {
+			"1": "Unlimited devices to connect to (attended)",
+			"2": "1 managed device (unattended)",
+			"3": "1 licensed user = 1 device to connect from",
+			"4": "Access to Help Center"
+		},
+		"2": {
+			"1": "Unlimited devices to connect to (attended)",
+			"2": "Up to 3000 managed devices (unattended)",
+			"3": "Connect from up to 3 devices per licensed user",
+			"4": "Wake-on-Lan",
+			"5": "Session Recording",
+			"6": "Advanced security options",
+			"7": "Customer Support"
+		},
+		"3": {
+			"1": "Unlimited devices to connect to (attended)",
+			"2": "Unlimited managed devices (unattended)",
+			"3": "Connect from up to 3 devices per licensed user",
+			"4": "Unlimited concurrent sessions",
+			"5": "Customization and branding",
+			"6": "Command line interface",
+			"7": "MSI deployment",
+			"8": "Group Policies"
+		}
+	},
+
+	"community__title": "Join our Community",
+
+	"question__title": "All you need to know",
+	"question__data": {
+		"1": {
+			"question": "Do you offer a monthly subscription and monthly payment?",
+			"answer": "Currently, we offer subscriptions on an annual basis and annual billings."
+		},
+		"2": {
+			"question": "Do I need to renew my contract every year?",
+			"answer": "We understand that Business Continuity is important for you. Hence, your contract will renew automatically unless you let us know beforehand."
+		},
+		"3": {
+			"question": "What payment options do you offer?",
+			"answer": "We accept payments via Bank, Visa, Mastercard and PayPal"
+		},
+		"4": {
+			"question": "What is a ID",
+			"answer": "If you want to start remote access, you need a valid license assigned to the respective account , e.g. via your own MultiViewer address or alias."
+		},
+		"5": {
+			"question": "What platforms can the software be used on?",
+			"answer": "Currently, we only support Windows devices."
+		},
+		"6": {
+			"question": "How can I get support?",
+			"answer": "You can get support through the platforms we have listed in Contact"
+		}
+	}
+}

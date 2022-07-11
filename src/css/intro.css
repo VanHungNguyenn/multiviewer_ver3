@@ -1,0 +1,57 @@
+.intro {
+    background-image: url('../images/man-sitting-outside-laptop-arrow.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.intro__container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.intro__content {
+    width: 50%;
+}
+
+.intro__subtitle {
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.intro__title {
+    font-size: 8rem;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 3rem;
+
+}
+
+.intro__desc {
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .intro__title, .intro__subtitle, .intro__desc {
+        text-align: center;
+    }
+
+    .intro__title {
+        font-size: 5.5rem;
+    }
+
+    .intro {
+        background: var(--white-color);
+    }
+}

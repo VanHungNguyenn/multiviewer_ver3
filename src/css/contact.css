@@ -1,0 +1,38 @@
+.contact {
+    background-image: url('../images/fadeout-stuttgart-opera-mobile-newsletter.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 10rem 0;
+}
+
+.contact__title {
+    font-size: 4.8rem;
+    margin-bottom: 4rem;
+    color: var(--white-color);
+}
+
+.contact__form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact__input {
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    width: 40%;
+}
+
+@media screen and (max-width: 480px) {
+    .contact__title {
+        text-align: center;
+    }
+
+    .contact__input {
+        width: 100%;
+    }
+}
