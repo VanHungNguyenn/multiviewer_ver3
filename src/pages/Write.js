@@ -4,6 +4,7 @@ import axios from 'axios'
 
 import './Write.css'
 import { useSelector } from 'react-redux'
+import TextEditor from '../components/Blog/TextEditor'
 
 const Write = () => {
 	const [title, setTitle] = useState('')
@@ -11,6 +12,8 @@ const Write = () => {
 	const [file, setFile] = useState(null)
 	const [fileAvatar, setFileAvatar] = useState(null)
 	const [category, setCategory] = useState('')
+
+	console.log(content)
 
 	const { username } = useSelector((state) => state?.auth)
 
@@ -42,6 +45,8 @@ const Write = () => {
 
 			newPost.photo = filename
 
+			console.log(newPost)
+
 			try {
 				await axios.post('/upload', data, {
 					headers: {
@@ -53,8 +58,6 @@ const Write = () => {
 			}
 		}
 
-		setTimeout(() => {}, 500)
-
 		if (fileAvatar) {
 			const dataAvatar = new FormData()
 			const filename = Date.now() + '-' + fileAvatar.name
@@ -63,7 +66,7 @@ const Write = () => {
 
 			newPost.photoAvatar = filename
 
-			newPost.photo = filename
+			console.log(newPost)
 
 			try {
 				await axios.post('/upload', dataAvatar, {
@@ -170,16 +173,8 @@ const Write = () => {
 					/>
 				</div>
 				<div className='write__form-group'>
-					<textarea
-						className='write__input write__textarea'
-						placeholder='Tell your story...'
-						type='text'
-						autoFocus={true}
-						value={content}
-						onChange={(e) => setContent(e.target.value)}
-					/>
+					<TextEditor setContent={setContent} content={content} />
 				</div>
-
 				<button className='button button--primary'>Publish</button>
 			</form>
 		</div>

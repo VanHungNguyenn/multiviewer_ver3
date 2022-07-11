@@ -13,8 +13,6 @@ const Single = () => {
 	const [post, setPost] = useState({})
 	const [relatedPosts, setRelatedPosts] = useState([])
 
-	console.log(relatedPosts)
-
 	useEffect(() => {
 		const fetchPost = async () => {
 			try {
@@ -78,12 +76,19 @@ const Single = () => {
 					</div>
 				</div>
 				{/* single image */}
-				<div className='single__image'>
-					<img src={PF + post.photoAvatar} alt='single' />
-				</div>
+				{post.photoAvatar && (
+					<div className='single__image'>
+						<img src={PF + post.photo} alt='single' />
+					</div>
+				)}
 				{/* single content */}
 				<div className='single__content'>
-					{post.content}
+					{/* post.content = '<h2>Hello</h2><p>Hi</p><p>Hahaha<span style="font-size: 16px;">​</span></p>', inner post.content to jsx */}
+					<div
+						dangerouslySetInnerHTML={{
+							__html: post.content,
+						}}
+					></div>
 					{/* <h2>Abstraction</h2>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.{' '}
