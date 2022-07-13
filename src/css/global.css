@@ -64,6 +64,10 @@ a, a:hover {
     text-align: center;
 }
 
+.button--red {
+    background-color: #F11F2D;
+}
+
 .button--default:hover {
     background-color: rgb(219, 236, 227);
 }

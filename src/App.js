@@ -10,13 +10,16 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import Write from './pages/Write'
 import Single from './pages/Single'
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Manager from './pages/Manager'
+import Category from './pages/Category'
+import UpdateBlog from './pages/UpdateBlog'
+import Layout from './components/Layout'
 
 import PrivateRoute from './routes/PrivateRoute'
 import { getToken, getUser } from './redux/authSlice'
 import { useDispatch, useSelector } from 'react-redux'
 import axios from 'axios'
+import ManageBlog from './pages/ManageBlog'
 
 function App() {
 	const { i18n } = useTranslation()
@@ -29,8 +32,6 @@ function App() {
 	const dispatch = useDispatch()
 	const isLogin = !!localStorage.getItem('token')
 	const { isLoggedIn } = useSelector((state) => state?.auth)
-
-	console.log({ isLoggedIn })
 
 	const getTokenUser = useCallback(async () => {
 		const token = localStorage.getItem('token')
@@ -70,34 +71,43 @@ function App() {
 		<div className='App'>
 			{lang ? (
 				<>
-					<Header />
 					<Routes>
-						<Route path='/' element={<Home />} />
-						{languages.map((lang) => (
-							<Route
-								key={lang.code}
-								path={`/${lang.code}`}
-								element={<Home />}
-							/>
-						))}
-						<Route path='blog' element={<Blog />} />
-						<Route path='blog/:id' element={<Single />} />
-						<Route path='login' element={<Login />} />
-						<Route path='register' element={<Register />} />
+						<Route path='/' element={<Layout />}>
+							<Route path='/' element={<Home />} />
+							{languages.map((lang) => (
+								<Route
+									key={lang.code}
+									path={`/${lang.code}`}
+									element={<Home />}
+								></Route>
+							))}
+							<Route path='blog' element={<Blog />} />
+							<Route path='blog/:slug' element={<Single />} />
+							<Route path='login' element={<Login />} />
+							<Route path='register' element={<Register />} />
+						</Route>
 						{/* private page */}
+
 						<Route
-							path='write'
+							path='manager'
 							element={
 								<PrivateRoute>
-									<Write />
+									<Manager />
 								</PrivateRoute>
 							}
-						/>
+						>
+							<Route
+								path='manage-blog'
+								element={<ManageBlog />}
+							/>
+							<Route path='write' element={<Write />} />
+							<Route path='category' element={<Category />} />
+							<Route path='update/:id' element={<UpdateBlog />} />
+						</Route>
 
 						{/* 404 route */}
 						<Route path='*' element={<PageNotFound />} />
 					</Routes>
-					<Footer />
 				</>
 			) : (
 				<></>

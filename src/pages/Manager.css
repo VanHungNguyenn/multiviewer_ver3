@@ -1,0 +1,32 @@
+.manager {
+    display: flex;
+    flex-direction: column;
+}
+
+.manager__header {
+    width: 100%;
+    height: 7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2rem;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.manager__header-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.manager__header-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.manager__header-list-item {
+    margin-left: 2rem;
+}

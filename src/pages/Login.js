@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { images } from '../constants'
+import { login } from '../redux/authSlice'
+import { useDispatch } from 'react-redux'
 import axios from 'axios'
 
 import './Auth.css'
@@ -14,6 +16,8 @@ const Login = () => {
 	const [password, setPassword] = useState('')
 
 	const [errMsg, setErrMsg] = useState('')
+
+	const dispatch = useDispatch()
 
 	useEffect(() => {
 		userRef.current.focus()
@@ -35,10 +39,16 @@ const Login = () => {
 			const accessToken = res?.data?.accessToken
 
 			localStorage.setItem('token', accessToken)
+			dispatch(
+				login({
+					username,
+					token: accessToken,
+				})
+			)
 			alert('Login Successful')
 			setUsername('')
 			setPassword('')
-			navigate('/write')
+			navigate('/manager')
 		} catch (error) {
 			setErrMsg(error.response.data.message)
 		}

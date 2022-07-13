@@ -5,9 +5,10 @@ import axios from 'axios'
 import './Single.css'
 import { Link } from 'react-router-dom'
 import RelatedPosts from '../components/Blog/RelatedPosts'
+import { linkImages } from '../constants/link'
 
 const Single = () => {
-	const PF = 'http://localhost:5555/images/'
+	const PF = linkImages
 
 	const param = useParams()
 	const [post, setPost] = useState({})
@@ -16,7 +17,7 @@ const Single = () => {
 	useEffect(() => {
 		const fetchPost = async () => {
 			try {
-				const res = await axios.get(`/post/${param.id}`)
+				const res = await axios.get(`/post/${param.slug}`)
 
 				setPost(res.data.post)
 			} catch (error) {
@@ -25,12 +26,12 @@ const Single = () => {
 		}
 
 		fetchPost()
-	}, [param.id])
+	}, [param.slug])
 
 	useEffect(() => {
 		const fetchRelatedPosts = async () => {
 			try {
-				const res = await axios.get(`/post/related/${param.id}`)
+				const res = await axios.get(`/post/related/${param.slug}`)
 
 				setRelatedPosts(res.data.posts)
 			} catch (error) {
@@ -39,7 +40,7 @@ const Single = () => {
 		}
 
 		fetchRelatedPosts()
-	}, [param.id])
+	}, [param.slug])
 
 	return (
 		<>
@@ -48,7 +49,7 @@ const Single = () => {
 				<div className='single__back button button--primary'>
 					<Link to='/blog'>
 						<i className='fas fa-arrow-left'></i>
-						<span>Back to overview</span>
+						<span>Trở lại trang blog</span>
 					</Link>
 				</div>
 				{/* single title and date */}
@@ -68,7 +69,7 @@ const Single = () => {
 						</div>
 						<div className='single__author-infor'>
 							<div className='single__author-name'>
-								<span>Writen by </span>
+								<span>Viết bởi </span>
 								<Link to='/'>{post.username}</Link>
 							</div>
 							<div className='single__author-role'>Admin</div>
@@ -90,6 +91,8 @@ const Single = () => {
 						}}
 					></div>
 					{/* <h2>Abstraction</h2>
+					<h3>Abstraction</h3>
+					<h4>Abstraction</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.{' '}
 						<a
@@ -160,34 +163,34 @@ const Single = () => {
 						quas quae debitis!
 					</p>
 					<img src={'https://picsum.photos/id/3/400/300'} alt='' />
-					<note>
+					<figcaption>
 						Side note... Want to just play around with stuff? Want
 						to just ship stuff? That's totally cool. Just recognize
 						you don't know the trade-offs and that could bite you in
 						the future. If the future doesn't matter that much then
 						don't worry about it!
-					</note>
-					<note>
+					</figcaption>
+					<figcaption>
 						Side note... Want to just play around with stuff? Want
 						to just ship stuff? That's totally cool. Just recognize
 						you don't know the trade-offs and that could bite you in
 						the future. If the future doesn't matter that much then
 						don't worry about it!
-					</note>
-					<note>
+					</figcaption>
+					<figcaption>
 						Side note... Want to just play around with stuff? Want
 						to just ship stuff? That's totally cool. Just recognize
 						you don't know the trade-offs and that could bite you in
 						the future. If the future doesn't matter that much then
 						don't worry about it!
-					</note>
-					<note>
+					</figcaption>
+					<figcaption>
 						Side note... Want to just play around with stuff? Want
 						to just ship stuff? That's totally cool. Just recognize
 						you don't know the trade-offs and that could bite you in
 						the future. If the future doesn't matter that much then
 						don't worry about it!
-					</note> */}
+					</figcaption> */}
 					<hr />
 				</div>
 				<RelatedPosts posts={relatedPosts} />

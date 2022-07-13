@@ -6,7 +6,7 @@ import './Posts.css'
 const Posts = ({ posts }) => {
 	return (
 		<div className='posts'>
-			{posts.map((post, index) => {
+			{posts?.map((post, index) => {
 				return <Post key={index} post={post} />
 			})}
 		</div>

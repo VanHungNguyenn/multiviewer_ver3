@@ -6,12 +6,13 @@ const BannerBlog = () => {
 	return (
 		<div className='banner-blog'>
 			<div className='banner-blog__content'>
-				<h1 className='banner-blog__title'>
-					Learn development with great articles.
-				</h1>
+				<h1 className='banner-blog__title'>Multiviewer blog</h1>
 				<p className='banner-blog__description'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-					euismod, nisi vel consectetur consectetur, nisi nisi
+					Phần mềm Multiviewer truy cập các thiết bị từ xa. Điều khiển
+					máy tính từ xa , hỗ trợ từ xa giúp người dùng làm việc và
+					cộng tác trên máy tính một cách hiệu quả. Phần mềm
+					Multiviewer cũng cập truy cập nhiều thiết bị máy tính từ xa
+					an toàn và dễ dùng.
 				</p>
 			</div>
 			<div className='banner-blog__image'>

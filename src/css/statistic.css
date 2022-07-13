@@ -1,6 +1,6 @@
 .statistic {
     position: relative;
-    background-image: url('../images/fadeoutright-woman-watching-tablet-in-office-f9af23.jpg');
+    background-image: url('../images/fadeoutright_woman_watching_tablet_in_office_f9af23_cd92e0520dc50002d70a.png');
     background-repeat: no-repeat;
     /* set background image 66.6% left */
     background-size: 66.66% auto;
@@ -55,6 +55,11 @@
 
     .statistic__item {
         align-items: center;
+    }
+
+    .statistic {
+        position: relative;
+        background-image: none;
     }
 }
 

@@ -18,7 +18,7 @@ const Topic = () => {
 
 	return (
 		<div className='topic'>
-			<div className='topic__title'>Search blog by topics:</div>
+			<div className='topic__title'>Tìm kiếm bài viết theo chủ đề:</div>
 			<div className='topic__list'>
 				<Link to={`/blog`}>
 					<div className='topic__item'>all</div>

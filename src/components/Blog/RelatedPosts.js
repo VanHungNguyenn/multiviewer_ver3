@@ -3,13 +3,11 @@ import Post from './Post'
 import './RelatedPosts.css'
 
 const RelatedPosts = ({ posts }) => {
-	console.log(posts)
-
 	return (
 		<>
-			{posts === [] ? (
+			{posts !== [] ? (
 				<div className='related container'>
-					<div className='related__title'>Related posts:</div>
+					<div className='related__title'>Bài viết liên quan:</div>
 					<div className='posts'>
 						{posts.map((post, index) => {
 							return <Post key={index} post={post} />
