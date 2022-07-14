@@ -59,9 +59,9 @@ const Single = () => {
 						<i className='fas fa-calendar-alt'></i>
 						<span>{new Date(post.createdAt).toDateString()}</span>
 					</div>
-					<div className='single__author'>
+					{/* <div className='single__author'>
 						<div className='single__author-image'>
-							{/* random image avatar */}
+			
 							<img
 								src='https://picsum.photos/200/200'
 								alt='author'
@@ -69,12 +69,10 @@ const Single = () => {
 						</div>
 						<div className='single__author-infor'>
 							<div className='single__author-name'>
-								<span>Viết bởi </span>
-								<Link to='/'>{post.username}</Link>
+								<span>Viết bởi Admin</span>
 							</div>
-							<div className='single__author-role'>Admin</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				{/* single image */}
 				{post.photoAvatar && (

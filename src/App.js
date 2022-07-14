@@ -96,10 +96,7 @@ function App() {
 								</PrivateRoute>
 							}
 						>
-							<Route
-								path='manage-blog'
-								element={<ManageBlog />}
-							/>
+							<Route path='' element={<ManageBlog />} />
 							<Route path='write' element={<Write />} />
 							<Route path='category' element={<Category />} />
 							<Route path='update/:id' element={<UpdateBlog />} />

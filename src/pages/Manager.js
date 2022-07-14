@@ -23,7 +23,7 @@ const Manager = () => {
 				</div>
 				<div className='manager__header-list'>
 					<div className='manager__header-list-item'>
-						<Link to='/manager/manage-blog'>Manage Blog</Link>
+						<Link to='/manager'>Manage Blog</Link>
 					</div>
 					<div className='manager__header-list-item'>
 						<Link to='/manager/category'>Category</Link>

@@ -1,12 +1,11 @@
 import { useState, useRef, useEffect } from 'react'
 import './Category.css'
 import axios from 'axios'
+import Swal from 'sweetalert2'
 const Category = () => {
 	const [category, setCategory] = useState('')
 	const [categories, setCategories] = useState([])
 	const InputRef = useRef()
-
-	console.log(categories)
 
 	useEffect(() => {
 		InputRef.current.focus()
@@ -54,6 +53,80 @@ const Category = () => {
 		fetchCategories()
 	}, [])
 
+	const handleUpdateCategory = async (id) => {
+		try {
+			Swal.fire({
+				title: 'Please enter new category name',
+				input: 'text',
+				inputAttributes: {
+					autocapitalize: 'off',
+				},
+				showCancelButton: true,
+				confirmButtonText: 'Yes, update it!',
+			}).then(async (result) => {
+				if (result.value) {
+					const name = result.value
+
+					try {
+						const res = await axios.put(
+							`/category/update/${id}`,
+							{
+								name,
+							},
+							{
+								headers: {
+									Authorization:
+										localStorage.getItem('token'),
+								},
+							}
+						)
+
+						alert(res.data.message)
+						fetchCategories()
+					} catch (error) {
+						alert(error.response.data.message)
+					}
+				}
+			})
+		} catch (error) {
+			alert(error.response.data.message)
+		}
+	}
+	const handleDeleteCategory = async (id) => {
+		try {
+			Swal.fire({
+				title: 'Are you sure?',
+				text: "You won't be able to revert this!",
+				icon: 'warning',
+				showCancelButton: true,
+				confirmButtonColor: '#3085d6',
+				cancelButtonColor: '#d33',
+				confirmButtonText: 'Yes, delete it!',
+			}).then(async (result) => {
+				if (result.value) {
+					try {
+						const res = await axios.delete(
+							`/category/delete/${id}`,
+							{
+								headers: {
+									Authorization:
+										localStorage.getItem('token'),
+								},
+							}
+						)
+
+						alert(res.data.message)
+						fetchCategories()
+					} catch (error) {
+						alert(error.response.data.message)
+					}
+				}
+			})
+		} catch (error) {
+			alert(error.response.data.message)
+		}
+	}
+
 	return (
 		<div className='category container'>
 			{/* Add category */}
@@ -92,6 +165,22 @@ const Category = () => {
 						>
 							<div className='category__list-content-item-name'>
 								{category.name}
+							</div>
+							<div
+								className='button button--primary'
+								onClick={() =>
+									handleUpdateCategory(category._id)
+								}
+							>
+								Update
+							</div>
+							<div
+								className='button button--primary button--red'
+								onClick={() =>
+									handleDeleteCategory(category._id)
+								}
+							>
+								Delete
 							</div>
 						</div>
 					))}
